@@ -40,13 +40,13 @@ scene.add(directionalLight);
 
 // Load a GLTF model
 const loader = new GLTFLoader();
-const modelPath = '/assets/models/2015_nissab_gt-r_nismo_gt3_r35.glb'; // Path to the model
+const modelPath = '/assets/models/2BHKFlat1.2.2.glb'; // Path to the model
 
 loader.load(
   modelPath,
   (gltf) => {
     // Add the loaded model to the scene
-    gltf.scene.scale.set(60, 60, 60); 
+    gltf.scene.scale.set(1, 1, 1); 
     scene.add(gltf.scene);
     gltf.scene.position.set(0, 0, 0); // Set the position of the model if needed
   },
