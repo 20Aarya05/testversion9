@@ -40,7 +40,7 @@ scene.add(directionalLight);
 
 // Load a GLTF model
 const loader = new GLTFLoader();
-const modelPath = 'https://raw.githubusercontent.com/20Aarya05/testversion9/main/src/assets/models/2BHKFlat1.2.2.glb'; // Path to the model
+const modelPath = '/assets/models/2BHKFlat1.2.2.glb'; // Path to the model
 
 loader.load(
   modelPath,
